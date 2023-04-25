@@ -20,13 +20,13 @@ As my project topic, Westside Boxing Club holds a special place in my heart. If 
 - ✅ A CSS file for styling website.
 - ✅ Used GitHub Pages to publish your website!
 
-- OPTIONAL (skip if you’re new to web dev!) - Pick one extra HTML feature:
+OPTIONAL (skip if you’re new to web dev!) - Pick one extra HTML feature:
 - ✅ Navigation menu and multiple pages
 
-- OPTIONAL (skip if you’re new to web dev!) - Pick one extra CSS feature:
+OPTIONAL (skip if you’re new to web dev!) - Pick one extra CSS feature:
 - ✅ onHover/onScroll animations (On services page, hover over the images)
 
-- OPTIONAL (skip if you’re new to web dev!) - Pick one extra JavaScript feature:
+OPTIONAL (skip if you’re new to web dev!) - Pick one extra JavaScript feature:
 - ✅ Add something with a JS library you haven’t used before (Dark mode)
 
 ## Usage
