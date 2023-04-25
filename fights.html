@@ -49,23 +49,6 @@
 		img {
 			width: 100%;
 		}
-		/* parent of the items I want to put in one row */
-		.row-flexbox {
-			display: flex;
-			justify-content: center;
-		}
-		/* the children -- aka flex items */
-		.row-flexbox .artist-flexbox {
-			background-color: #FEF587;
-			width: 300px;
-			padding: 15px;
-			margin: 0px 10px;
-			text-align: center;
-		}
-		/* Don't override the bootstrap CSS too much */
-		/* .col {
-			background-color: ...
-		} */
 		.yellow {
 			background-color: #FEF587;
 			padding: 10px;
@@ -78,40 +61,32 @@
 	</div>
     <div id="navbar">
 		<ul>
-			<li><a href="lecture.html#lightbox-section">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="services.html">Services</a></li>
 			<li><a href="fights.html">Fights</a></li>
-			<li><a href="lecture.html#section-4">Contact</a></li>
+			<li><a href="contact.html">Contact</a></li>
 			<div class="clearfloat"></div>
 		</ul>
 	</div> <!-- #navbar -->
-
-
-    
-	<div id="about">
-		<div class="about-inner">
-			<h2>About</h2>
-
-				<!-- <div id="relative-div">
-					I'm a relative div!!
-				</div>
-				<div id="absolute-div">
-					I'm an absolute div!!
-				</div>
-				<div id="fixed-div">
-					I'm a fixed div!!
-				</div> -->
-
-				<p>This is an unofficial webpage for Westside Boxing Club. The Westside Boxing Club was established in 2007 by the Saucedo Ruiz boxing family. In a short period, Westside has developed a reputation as a true and traditional “fight gym." Home of hardwork and dedication.</p>
-
-				<p>At Westside Boxing, we provide training programs that cater to individuals of all ages and skill levels, including men, women, and children. Whether you aspire to improve your fitness or pursue boxing as a competitive sport, our team of experienced trainers are committed to guiding you through your journey. We take pride in offering an authentic Los Angeles fight gym experience that fosters a welcoming environment and a strong sense of community. We believe that our approach strikes the perfect balance between rigorous training and a supportive atmosphere. We welcome you to join our community and look forward to seeing you soon.</p>
+	<div id="artists">
+		<h2>UPCOMING FIGHTS</h2>
+		<div class="row">
+			<div class="artist">
+				<img src="images/tank.webp" alt="Tank vs Garcia">
+				<h3>Tank vs Garcia</h3>
+				<div class="overlay">APR 22</div>
 			</div>
-		</div>
-		<div id="footer">
-			<p> Created with 
-                <i class="fas fa-heart"></i>
-                by <a href="https://www.linkedin.com/in/ezequielreyes1/">Zeke</a>.
-            </p>
+			<div class="artist">
+				<img src="images/tank.webp" alt="Tank vs Garcia">
+				<h3>Tank vs Garcia</h3>
+				<div class="overlay">APR 22</div>
+
+			</div>
+			<div class="artist">
+				<img src="images/tank.webp" alt="Tank vs Garcia">
+				<h3>Tank vs Garcia</h3>
+				<div class="overlay">APR 22</div>
+			</div>
 		</div>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

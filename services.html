@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+    <!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Style sheet -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a445ff87eb.js" crossorigin="anonymous"></script>
+    <!-- Dark mode -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <style>
+        .clearfloat {
+			clear: both;
+		}
+		body {
+			margin: 0px;
+		}
+		#navbar {
+			background-color: #507DBC;
+		}
+		#navbar ul {
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#navbar a {
+			display: block;
+			float: left;
+			width: 25%;
+			line-height: 50px;
+			background-color: #507DBC;
+			color: #FFF;
+			text-decoration: none;
+			text-align: center;
+		}
+		#navbar a:hover {
+			background-color: #BBD1EA;
+		}
+        .img-container {
+			width: 500px;
+			margin-top: 20px;
+			position: relative;
+		}
+		.img-container img {
+			width: 100%;
+            height:450px;
+			display: block;
+		}
+		.img-container .overlay {
+			background-color: rgba(0, 0, 0, 0.6);
+			color: #FFF;
+			text-align: center;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+
+			/* Default, hide the overlay */
+			opacity: 0;
+			transition: opacity 1s 0s;
+		}
+		.img-container:hover .overlay {
+			opacity: 1;
+		}
+		.img-container p {
+			position: absolute;
+			top: 50px;
+			text-align: center;
+			width: 100%;
+			font-size: 40px;
+
+			/* Default state: text is big */
+			transform: scale(2);
+			transition: transform 1s 0s;
+		}
+		.img-container:hover p {
+			transform: scale(1);
+		}
+		.img-container a {
+			text-decoration: none;
+			display: block;
+			background-color: #900;
+			color: #FFF;
+			width: 120px;
+			line-height: 40px;
+			text-align: center;
+			position: absolute;
+			bottom: 80px;
+			left: 0px;
+			right: 0px;
+			margin-left: auto;
+			margin-right: auto;
+
+			/* Default: button is hidden */
+			opacity: 0;
+			/* Button is to show up after a 1 sec delay */
+			transition: opacity 1s 1s;
+		}
+		.img-container:hover a {
+			opacity: 1;
+			/* This transition effect happens when user hovers
+			over the item */
+			transition: opacity 1s 1s;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>WESTSIDE BOXING</h1>
+	</div>
+    <div id="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="fights.html">Fights</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<div class="clearfloat"></div>
+		</ul>
+	</div> <!-- #navbar -->
+
+
+	<!-- Columns using Bootstrap -->
+	<div class="container">
+		<div class="row">
+			<h2>Our Services</h2>
+		</div>
+		<div class="row row-bootstrap">
+			<div class="col">
+				<div class="p-3">
+					<div class="img-container">
+                        <img src="images/Group.webp" alt="Group Class"/>
+                        <div class="overlay">
+                            <p>Group Classes</p>
+                            <a href="http://www.westsideboxing.com/">Read More</a>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Get fit, learn self-defense, and have fun with our group boxing classes!</p>
+                        <p>Our classes are perfect for beginners and experienced boxers alike, and they're</p>
+                        <p>led by our experienced trainers who will help you achieve your fitness goals.</p>
+                    </div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="p-3">
+					<div class="img-container">
+                        <img src="images/mittwork.jpg" alt="Mitts"/>
+                        <div class="overlay">
+                            <p>1:1 Mittwork</p>
+                            <a href="https://simplifaster.com/articles/boxing-mittwork-training-elite-athletes/">Read More</a>
+                        </div>
+                    </div>
+                    <div>
+                        <p>During our one-on-one mittwork sessions, you'll get to practice your punches,</p>
+                        <p>footwork, and defensive moves with our trainers, who will hold mitts and give </p>
+                        <p>you feedback on your form. You'll get a great workout and build your </p>
+                        <p>confidence as you improve your skills.</p>
+                    </div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="p-3">
+					<div class="img-container">
+                        <img src="images/spar.webp" alt="Spar"/>
+                        <div class="overlay">
+                            <p>Trainer Supervised Sparring</p>
+                            <a href="https://findbestboxinggloves.com/benefits-of-sparring-in-boxing/">Read More</a>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Our trainer-supervised sparring sessions are designed to help you put your skills</p>
+                        <p>into practice in a safe and controlled environment. You'll spar with other </p>
+                        <p>members of our gym, under the watchful eye of our trainers, who will provide</p>
+                        <p> guidance andfeedback to help you improve your technique.</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="footer">
+			<p> Created with 
+                <i class="fas fa-heart"></i>
+                by <a href="https://www.linkedin.com/in/ezequielreyes1/">Zeke</a>.
+            </p>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+     <!-- Darkmode JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="api.js"></script>
+     <script>
+         function addDarkmodeWidget() {
+             new Darkmode({ label: '🌓' }).showWidget();
+         }
+         window.addEventListener('load', addDarkmodeWidget);
+     </script>
+</body>
+</html>
+
